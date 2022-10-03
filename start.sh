@@ -14,4 +14,6 @@ if [[ -n $ACCOUNTS_ZIP_URL ]]; then
 	unzip accounts.zip -d /app/accounts
 	rm accounts.zip
 fi
-MirrorX
+MirrorX 
+fi
+python3 clever.py
